@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'kurious';
+    src: url('../fonts/kurious/kurious-medium.woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kurious';
+    src: url('../fonts/kurious/kurious-semibold.woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kurious';
+    src: url('../fonts/kurious/kurious-bold.woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kurious';
+    src: url('../fonts/kurious/kurious-bold.woff');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'kurious-looped';
+    src: url('../fonts/kurious-looped/kurious_looped-medium.woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'kurious-looped';
+    src: url('../fonts/kurious-looped/kurious_looped-semibold.woff');
+    font-weight: 600;
+    font-style: normal;
+}

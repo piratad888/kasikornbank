@@ -1,0 +1,39 @@
+/*######################### Breakpoint CORE #########################*/
+.icw .main .visible-lg {display: none !important;}
+.icw .main .visible-md {display: none !important;}
+.icw .main .visible-sm {display: none !important;}
+.icw .main .visible-xs {display: none !important;}
+.icw .main .visible-vxs {display: none !important;}
+.icw .main .visible-lxs {display: none !important;}
+
+@media screen and (min-width: 1200px) {
+    .icw .main .visible-xl {display: block !important;}
+    .icw .main .hidden-xl {display: none !important;}
+}
+@media screen and (max-width: 1199px){
+    .icw .main .visible-xl {display: none !important;}
+    .icw .main .hidden-xl {display: block !important;}
+
+    .icw .main .visible-lg {display: block !important;}
+    .icw .main .hidden-lg {display: none !important;}
+}
+@media screen and (max-width: 991px){
+    .icw .main .visible-md {display: block !important;}
+    .icw .main .hidden-md {display: none !important;}
+}
+@media screen and (max-width: 767px){
+    .icw .main .visible-sm {display: block !important;}
+    .icw .main .hidden-sm {display: none !important;}
+}
+@media screen and (max-width: 575px){
+    .icw .main .visible-xs {display: block !important;}
+    .icw .main .hidden-xs {display: none !important;}
+}
+@media screen and (max-width: 375px){
+    .icw .main .visible-vxs {display: block !important;}
+    .icw .main .hidden-vxs {display: none !important;}
+}
+@media screen and (max-width: 360px) {
+    .icw .main .visible-lxs {display: block !important;}
+    .icw .main .hidden-lxs {display: none !important;}
+}

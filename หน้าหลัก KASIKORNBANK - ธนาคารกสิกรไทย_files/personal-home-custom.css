@@ -1,0 +1,114 @@
+.sc-highlight .link {
+    font-size: 16px;
+}
+
+.icw .main h1
+, .icw .main h2
+, .icw .main h2 strong
+, .icw .main .h2 strong 
+, .icw .main h3
+, .icw .main h3 strong
+, .icw .main .h3
+, .icw .main .h3 strong
+, .icw .main .h4 strong {
+    font-family: "kurious-looped";
+}
+
+.icw .main h2 strong
+, .icw .main .h2 strong
+, .icw .main .h3 strong
+, .icw .main h4 strong
+, .icw .main .h4 strong {
+    font-weight: 600;
+}
+
+.main .form-default .form-control {
+    height: 30px;
+    padding: 0px 5px;
+    border: 0;
+}
+.main .form-default .form-control[disabled]{background-color: var(--cr-light); color: var(--cr-dark);}
+
+.sc-news {
+    font-size: 16px;
+}
+
+.sc-news .row-flex > .col {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.sc-news .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.icw .main .h4 {
+    font-size: 18px;
+}
+
+@media screen and (min-width: 200px) {
+    .main .sc-shortcut .txt {
+        font-size: 16px !important;
+    }
+
+    .main .sc-shortcut .txt strong {
+        font-weight: 600;
+    }
+
+    .icw .main h3, .icw .main .h3 {
+        line-height: 1.5em;
+    }
+
+    .icw .main h2, .icw .main .h2 {
+        font-size: 24px;
+        line-height: 1.5em;
+    }
+
+    .swiper-interesting-main .content.typeII .btn {
+        color: var(--cr-green) !important;
+    }
+
+    .swiper-interesting-main .content.typeII .btn:hover {
+        color: var(--cr-light) !important;
+    }
+
+    .sc-news .action {padding-bottom: 5px;}
+
+    .sc-news .sc-content{margin-top: 20px;}
+}
+
+@media screen and (min-width: 768px) {
+    .icw .main .h3 {
+        font-size: 26px;
+        line-height: 1.5em;
+    }
+
+    .icw .main .h4 {
+        font-size: 20px;
+        line-height: 1.5em;
+    }
+
+    .icw .main h2, .icw .main .h2 {
+        font-size: 33px;
+        line-height: 1.4em;
+    }
+}
+@media screen and (min-width: 992px) {
+
+    .swiper-interesting-main .thumb img.hidden-md{display: block !important;}
+
+    .sc-product .thumb img.hidden-md{display: block !important;}
+
+    .sc-promotion .thumb img.hidden-md{display: block !important;}
+
+    .sc-news .action {padding-bottom: 5px;}
+
+    .news-slide .content {height: 210px;}
+    .news-slide .thumb img.hidden-md{display: block !important;}
+}
+@media screen and (min-width: 1140px) {
+    .sc-news .sc-content{margin-top: 24px;}
+
+    .news-slide .content {height: 201px;}
+}

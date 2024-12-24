@@ -1,0 +1,594 @@
+@font-face {
+  font-family: 'iconavigation';
+  src: url('../fonts/font-icon/iconavigation2.eot?5pz7xr');
+  src: url('../fonts/font-icon/iconavigation2.eot?5pz7xr') format('embedded-opentype'),
+    url('../fonts/font-icon/iconavigation2.ttf?5pz7xr') format('truetype'),
+    url('../fonts/font-icon/iconavigation2.woff?5pz7xr') format('woff'),
+    url('../fonts/font-icon/iconavigation2.svg?5pz7xr#iconavigation2') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+  
+.ic-nvg {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iconavigation' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ic-new:before {
+  content: "\e9ae";
+}
+.ic-Spacial:before {
+  content: "\e9ab";
+}
+.ic-Health:before {
+  content: "\e9ac";
+}
+.ic-Travel:before {
+  content: "\e9ad";
+}
+.ic-pig:before {
+  content: "\e9aa";
+}
+.ic-highlights:before {
+  content: "\e9a9";
+}
+.ic-coupon:before {
+  content: "\e9a8";
+}
+.ic-icon-approve-document:before {
+  content: "\e9a7";
+}
+.ic-nav-icon_social-tt:before {
+  content: "\e9a6";
+}
+.ic-icon-id-cared:before {
+  content: "\e9a3";
+}
+.ic-icon-kbank-account:before {
+  content: "\e9a4";
+}
+.ic-icon-phone-money:before {
+  content: "\e9a5";
+}
+.ic-call24:before {
+  content: "\e9a0";
+}
+.ic-kbanklive:before {
+  content: "\e9a1";
+}
+.ic-consult:before {
+  content: "\e9a2";
+}
+.ic-icon_filter-search:before {
+  content: "\e99f";
+}
+.ic-About-K-ATM-icon:before {
+  content: "\e99e";
+}
+.ic-icons-wealth:before {
+  content: "\e99d";
+}
+.ic-zeroper:before {
+  content: "\e999";
+}
+.ic-point:before {
+  content: "\e99a";
+}
+.ic-fav-chose:before {
+  content: "\e99b";
+}
+.ic-fav-icon:before {
+  content: "\e99c";
+}
+.ic-buy-funds:before {
+  content: "\e998";
+}
+.ic-currency-exchange:before {
+  content: "\e997";
+}
+.ic-knowlage:before {
+  content: "\e996";
+}
+.ic-icon-withdraw:before {
+  content: "\e995";
+}
+.ic-hl-main-revamp_icon-renovate:before {
+  content: "\e991";
+}
+.ic-hospital:before {
+  content: "\e989";
+}
+.ic-pagoda:before {
+  content: "\e98a";
+}
+.ic-school:before {
+  content: "\e98b";
+}
+.ic-icon-wealthfund:before {
+  content: "\e986";
+}
+.ic-accident-insurance:before {
+  content: "\e97d";
+}
+.ic-all-insurance:before {
+  content: "\e97e";
+}
+.ic-car-insurance:before {
+  content: "\e97f";
+}
+.ic-life-insurance:before {
+  content: "\e981";
+}
+.ic-loan-insurance:before {
+  content: "\e982";
+}
+.ic-property-insurance:before {
+  content: "\e983";
+}
+.ic-savings-insurance:before {
+  content: "\e984";
+}
+.ic-tax-insurance:before {
+  content: "\e985";
+}
+.ic-thumb:before {
+  content: "\e97c";
+}
+.ic-kl-icon-all-car:before {
+  content: "\e975";
+}
+.ic-kl-icon-electric-car:before {
+  content: "\e976";
+}
+.ic-kl-icon-gasoline-car:before {
+  content: "\e977";
+}
+.ic-kl-icon-hybrid-car:before {
+  content: "\e978";
+}
+.ic-reward:before {
+  content: "\e97b";
+}
+.ic-credit-card:before {
+  content: "\e966";
+}
+.ic-icon-add-credit:before {
+  content: "\e967";
+}
+.ic-icon-Increase-limit:before {
+  content: "\e968";
+}
+.ic-card:before {
+  content: "\e923";
+}
+.ic-download-file:before {
+  content: "\e969";
+}
+.ic-icon-uoload:before {
+  content: "\e96a";
+}
+.ic-approval:before {
+  content: "\e940";
+}
+.ic-apply-kplus:before {
+  content: "\e96b";
+}
+.ic-call-wifi-kplus:before {
+  content: "\e94f";
+}
+.ic-bag:before {
+  content: "\e956";
+}
+.ic-building:before {
+  content: "\e957";
+}
+.ic-flipbook:before {
+  content: "\e959";
+}
+.ic-plane:before {
+  content: "\e95e";
+}
+.ic-travel-insurance:before {
+  content: "\e987";
+}
+.ic-retirement:before {
+  content: "\e95f";
+}
+.ic-homelover:before {
+  content: "\e95c";
+}
+.ic-shop:before {
+  content: "\e960";
+}
+.ic-search-shop:before {
+  content: "\e935";
+}
+.ic-spoon-fork:before {
+  content: "\e962";
+}
+.ic-transport:before {
+  content: "\e965";
+}
+.ic-save-world:before {
+  content: "\e950";
+}
+.ic-Subtract:before {
+  content: "\e94e";
+}
+.ic-ab-testing:before {
+  content: "\e939";
+}
+.ic-goal:before {
+  content: "\e93c";
+}
+.ic-step:before {
+  content: "\e93f";
+}
+.ic-graph-chart:before {
+  content: "\e95a";
+}
+.ic-clock:before {
+  content: "\e941";
+}
+.ic-slide:before {
+  content: "\e937";
+}
+.ic-privilege:before {
+  content: "\e951";
+}
+.ic-payment:before {
+  content: "\e934";
+}
+.ic-solved:before {
+  content: "\e961";
+}
+.ic-icon_metapay:before {
+  content: "\e931";
+}
+.ic-icon_promotion:before {
+  content: "\e932";
+}
+.ic-icon_best:before {
+  content: "\e933";
+}
+.ic-account:before {
+  content: "\e930";
+}
+.ic-company:before {
+  content: "\e92f";
+}
+.ic-hl-main-revamp_icon-buidhome:before {
+  content: "\e98f";
+}
+.ic-stable-money:before {
+  content: "\e963";
+}
+.ic-icon-cash-back:before {
+  content: "\e948";
+}
+.ic-financial-amount:before {
+  content: "\e96c";
+}
+.ic-icon-cash-back1:before {
+  content: "\e96d";
+}
+.ic-spend-international:before {
+  content: "\e943";
+}
+.ic-hl-main-revamp_icon-refinance:before {
+  content: "\e990";
+}
+.ic-promotion:before {
+  content: "\e938";
+}
+.ic-price-tag:before {
+  content: "\e93d";
+}
+.ic-nav-icon_social-pin:before {
+  content: "\e92e";
+}
+.ic-links:before {
+  content: "\e921";
+}
+.ic-peace:before {
+  content: "\e98c";
+}
+.ic-Heart-Rate:before {
+  content: "\e988";
+}
+.ic-health-insurance:before {
+  content: "\e980";
+}
+.ic-heart:before {
+  content: "\e95b";
+}
+.ic-notification:before {
+  content: "\e945";
+}
+.ic-icon-email:before {
+  content: "\e949";
+}
+.ic-video:before {
+  content: "\e922";
+}
+.ic-benefits:before {
+  content: "\e912";
+}
+.ic-makemoney:before {
+  content: "\e95d";
+}
+.ic-expenses:before {
+  content: "\e958";
+}
+.ic-calculate:before {
+  content: "\e913";
+}
+.ic-approval-branch:before {
+  content: "\e96e";
+}
+.ic-icon-job:before {
+  content: "\e953";
+}
+.ic-icon-referral:before {
+  content: "\e94c";
+}
+.ic-nav-icon_personal:before {
+  content: "\e90a";
+}
+.ic-why:before {
+  content: "\e992";
+}
+.ic-check-circle:before {
+  content: "\e96f";
+}
+.ic-icon-empty:before {
+  content: "\e94a";
+}
+.ic-alert:before {
+  content: "\e93a";
+}
+.ic-logo:before {
+  content: "\e918";
+}
+.ic-more:before {
+  content: "\e98d";
+}
+.ic-prize:before {
+  content: "\e91a";
+}
+.ic-rate:before {
+  content: "\e91b";
+}
+.ic-recommended:before {
+  content: "\e91c";
+}
+.ic-vision:before {
+  content: "\e91e";
+}
+.ic-nav-icon_business:before {
+  content: "\e901";
+}
+.ic-check-file:before {
+  content: "\e946";
+}
+.ic-protection-file:before {
+  content: "\e947";
+}
+.ic-tax:before {
+  content: "\e964";
+}
+.ic-application-document:before {
+  content: "\e970";
+}
+.ic-apply-branch:before {
+  content: "\e971";
+}
+.ic-table:before {
+  content: "\e944";
+}
+.ic-document:before {
+  content: "\e915";
+}
+.ic-detail:before {
+  content: "\e936";
+}
+.ic-history:before {
+  content: "\e917";
+}
+.ic-nav-icon_contact-form:before {
+  content: "\e904";
+}
+.ic-icon-help:before {
+  content: "\e952";
+}
+.ic-nav-icon_contact-chat:before {
+  content: "\e903";
+}
+.ic-faqs:before {
+  content: "\e916";
+}
+.ic-icon-sms:before {
+  content: "\e974";
+}
+.ic-icon-tips:before {
+  content: "\e955";
+}
+.ic-tips:before {
+  content: "\e942";
+}
+.ic-rich:before {
+  content: "\e93e";
+}
+.ic-nav-icon_wealth:before {
+  content: "\e911";
+}
+.ic-contact:before {
+  content: "\e914";
+}
+.ic-call:before {
+  content: "\e93b";
+}
+.ic-telephone:before {
+  content: "\e91d";
+}
+.ic-nav-icon_contact-tel:before {
+  content: "\e905";
+}
+.ic-con-voice-search:before {
+  content: "\e920";
+}
+.ic-nav-icon_arrow:before {
+  content: "\e900";
+}
+.ic-check:before {
+  content: "\e972";
+}
+.ic-nav-icon_close:before {
+  content: "\e902";
+}
+.ic-nav-icon_expandmenu:before {
+  content: "\e906";
+}
+.ic-nav-icon_hidemenu:before {
+  content: "\e907";
+}
+.ic-nav-icon_login:before {
+  content: "\e908";
+}
+.ic-icon-refresh:before {
+  content: "\e94d";
+}
+.ic-refresh-icon:before {
+  content: "\e91f";
+}
+.ic-nav-icon_menu:before {
+  content: "\e909";
+}
+.ic-list:before {
+  content: "\e993";
+}
+.ic-menu:before {
+  content: "\e919";
+}
+.ic-menu-fixedbar:before {
+  content: "\e92d";
+}
+.ic-kl-icon-sort-by-popular:before {
+  content: "\e97a";
+}
+.ic-kl-icon-sort-by-name:before {
+  content: "\e979";
+}
+.ic-other:before {
+  content: "\e973";
+}
+.ic-window:before {
+  content: "\e98e";
+}
+.ic-nav-icon_search:before {
+  content: "\e90b";
+}
+.ic-icon-zoom:before {
+  content: "\e994";
+}
+.ic-play-video:before {
+  content: "\e954";
+}
+.ic-icon-facebook:before {
+  content: "\e94b";
+}
+.ic-nav-icon_social-fb:before {
+  content: "\e90c";
+}
+.ic-nav-icon_social-ig:before {
+  content: "\e90d";
+}
+.ic-nav-icon_social-line:before {
+  content: "\e90e";
+}
+.ic-nav-icon_social-twitter:before {
+  content: "\e90f";
+}
+.ic-nav-icon_social-youtube:before {
+  content: "\e910";
+}
+.ic-nav-icon_social-x:before {
+  content: "\e924";
+}
+.ic-nav-icon_social-x1:before {
+  content: "\e929";
+}
+.ic-nav-icon_social-ytksme:before {
+  content: "\e92b";
+}
+.ic-nav-icon_social-yt:before {
+  content: "\e92a";
+}
+.ic-nav-icon_social-fbksme:before {
+  content: "\e926";
+}
+.ic-nav-icon_social-fbkaec:before {
+  content: "\e925";
+}
+.ic-nav-icon_social-fb1:before {
+  content: "\e92c";
+}
+.ic-nav-icon_social-li:before {
+  content: "\e928";
+}
+.ic-nav-icon_social-ig1:before {
+  content: "\e927";
+}
+
+
+/**/
+.icon-anim-fixedbar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-anim-fixedbar .colr-pane {
+  position: absolute;
+  width: 20px;
+  height: 5px;
+  top: 11px;
+  background-color: #00A94F;
+  z-index: 1;
+  transition-duration: 360ms;
+  transition-property: top;
+}
+.icon-anim-fixedbar .mask-pane {
+  z-index: 2;
+}
+#animFixbarPane.sx-0 .colr-pane {
+  top: 11px;
+}
+#animFixbarPane.sx-1 .colr-pane {
+  top: 16px;
+}
+#animFixbarPane.sx-2 .colr-pane {
+  top: 21px;
+}
+#animFixbarPane.sx-3 .colr-pane {
+  top: 26px;
+}
+#animFixbarPane.icon-anim-fixedbar.idle::before {
+  content: '';
+  display: block;
+  position: absolute;
+  background-color: #00A94F;
+  width: 40px; height: 40px;
+  border-radius: 20px;
+  overflow: hidden;
+}

@@ -1,0 +1,112 @@
+.webchatbox {
+  position: fixed;
+  bottom: 67px;
+  right: 28px;
+  z-index: 1001;
+}
+
+.webchatbox .webchatbox-inner {
+  position: relative;
+}
+
+#chatline img {
+  border-style: none;
+}
+
+.webchatbox .chat-list>a {
+  display: inline-flex;
+  border-radius: 100%;
+  box-shadow: 0px 6px 10px #cccccc;
+}
+
+
+.webchatbox .chat-tooltip-info {
+  position: relative;
+  top: -15px;
+}
+
+.webchatbox .chat-hover-tooltip {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.webchatbox .btn-chatweb-choose {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.webchatbox .chooseChat-web-btn-action {
+  position: relative;
+  display: block;
+  z-index: 10;
+}
+
+
+/* comment chat */
+
+.webchatbox .tooltip-web {
+  display: inline-block;
+  width: auto;
+  position: relative;
+  top: 0;
+  right: 10px;
+    font-family: "kurious-looped";
+  font-size: 20px;
+    line-height: 1.5;
+  padding: 9px 30px;
+  background: #fafafa;
+  color: #999;
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  border: 1px solid #dadada;
+}
+
+.webchatbox .tooltip-web:after {
+    content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 5px 0 5px 7px;
+  border-color: transparent #fafafa;
+  display: block;
+  width: 0;
+  z-index: 1;
+  right: -6px;
+  top: 14px;
+}
+
+.webchatbox .tooltip-web:before {
+    content: '';
+  position: absolute;
+  border-style: solid;
+  border-width: 5px 0 5px 7px;
+  border-color: transparent #dadada;
+  display: block;
+  width: 0;
+  z-index: 0;
+  right: -7px;
+  top: 14px;
+}
+
+.webchatbox .tooltip-web.content-mb2.closeBox {
+  display: none;
+}
+
+.webchatbox .tooltip-close-btn {
+  position: absolute;
+  top: 6px;
+  left: -13px;
+}
+
+.webchatbox .chat-list>a img,
+.webchatbox .chooseChat-web-btn-action img {
+  border-radius: 50%;
+  max-width: 45px;
+}
+
+@media screen and (min-width: 768px) {
+    .webchatbox .tooltip-close-btn{
+    display: none;
+  }
+}
+

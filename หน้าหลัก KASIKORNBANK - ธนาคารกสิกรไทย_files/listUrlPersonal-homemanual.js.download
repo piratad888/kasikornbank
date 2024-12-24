@@ -1,0 +1,30 @@
+let default_page = "";
+let targetChange = "";
+// let targetChange =  [
+//     {  
+//         section : "product-details",
+//         link : "https://mcb01.kasikornbank.com/forwardCommonFlow?commonFlowID=WebKPaylaterProductDetail&source=web"
+//     },
+//     {  
+//         section : "application-details",
+//         link : "https://mcb01.kasikornbank.com/forwardCommonFlow?commonFlowID=WebKPaylaterAppyCondition&source=web"
+//     },
+//     {  
+//         section : "application-details",
+//         link : "https://mcb01.kasikornbank.com/forwardCommonFlow?commonFlowID=WebKPaylaterAppyCondition&source=web",
+//         target : "how-to-apply",
+//         linkTab : "https://mcb01.kasikornbank.com/forwardCommonFlow?commonFlowID=WebKPaylaterHowtoApply&source=web",
+//         attribute : "data-tab-target"
+//     },
+//     {  
+//         section : "application-details",
+//         link : "https://mcb01.kasikornbank.com/forwardCommonFlow?commonFlowID=WebKPaylaterAppyCondition&source=web",
+//         target : "how-to-repayment",
+//         linkTab : "https://mcb01.kasikornbank.com/forwardCommonFlow?commonFlowID=WebKPaylaterHowtoRepayment&source=web",
+//         attribute : "data-tab-target"
+//     }
+// ];
+
+// img and tooltip line
+let imgWebchat = "";
+let tooltipText = "";
